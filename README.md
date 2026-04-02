@@ -44,7 +44,7 @@ Most analyses were performed by the mycosnp pipeline v1.6.3 used with Nextflow v
 - `samplesheet.csv`: list of samples on local machine for mycosnp to run
 - `sra_ca_controls.csv`: list of SRAs mycosnp should download and run alongside the local samples. These will be automatically downloaded by the pipeline.
 - `plots.ipynb`: Jupyter Notebook to plot output of mycosnp pipeline. Expects matplotlib, biopython, and seaborn to be installed.
-- `snpdist.csv`: pairwise SNP distances emitted by mycosnp
+- `snpdist.tsv`: pairwise SNP distances emitted by mycosnp
 - `quicksnp_phylogeny.nwk` SNP-based Newick tree
 
 Additional files (such as those emitted by mycosnp and too large to include here) can be provided upon request.
